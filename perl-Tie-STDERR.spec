@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tie
-%define	pnam	STDERR
+%define		pdir	Tie
+%define		pnam	STDERR
 Summary:	Tie::STDERR - send output of your STDERR to a process or mail
 Summary(pl):	Tie::STDERR - wysy³anie standardowego wyj¶cia b³êdu do procesu lub poczt±
 Name:		perl-Tie-STDERR
