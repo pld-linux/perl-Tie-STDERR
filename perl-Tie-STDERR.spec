@@ -4,7 +4,7 @@
 Summary:	Tie::STDERR - Send output of your STDERR to a process or mail
 Name:		perl-Tie-STDERR
 Version:	0.26
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
