@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Tie-STDERR
 Name:		perl-Tie-STDERR
 Version:	0.26
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tie/Tie-STDERR-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tie/Tie-STDERR-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
