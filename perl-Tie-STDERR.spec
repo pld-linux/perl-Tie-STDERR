@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	STDERR
-Summary:	Tie-STDERR perl module
-Summary(pl):	Modu³ perla Tie-STDERR
+Summary:	Tie::STDERR perl module
+Summary(pl):	Modu³ perla Tie::STDERR
 Name:		perl-Tie-STDERR
 Version:	0.26
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tie-STDERR perl module.
+Tie::STDERR perl module.
 
 %description -l pl
-Modu³ perla Tie-STDERR.
+Modu³ perla Tie::STDERR.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
