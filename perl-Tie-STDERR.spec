@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	STDERR
-Summary:	Tie::STDERR perl module
-Summary(pl):	Modu³ perla Tie::STDERR
+Summary:	Tie::STDERR - Send output of your STDERR to a process or mail
 Name:		perl-Tie-STDERR
 Version:	0.26
 Release:	8
@@ -15,10 +14,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tie::STDERR perl module.
-
-%description -l pl
-Modu³ perla Tie::STDERR.
+Sends all output that would otherwise go to STDERR either by email to
+root or whoever is responsible, or to a file or a process, or calls
+your function at the end of the script. This way you can easily change
+the destination of your error messages from B<inside> of your script.
+The mail will be sent or the system command or Perl function run only
+if there actually is some output detected -- something like cron would do.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
