@@ -3,7 +3,7 @@ Summary:	Tie-STDERR perl module
 Summary(pl):	Modu³ perla Tie-STDERR
 Name:		perl-Tie-STDERR
 Version:	0.26
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
