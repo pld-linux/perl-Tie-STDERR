@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	STDERR
 Summary:	Tie::STDERR - send output of your STDERR to a process or mail
-Summary(pl):	Tie::STDERR - wysy³anie standardowego wyj¶cia b³êdu do procesu lub poczt±
+Summary(pl.UTF-8):   Tie::STDERR - wysyÅ‚anie standardowego wyjÅ›cia bÅ‚Ä™du do procesu lub pocztÄ…
 Name:		perl-Tie-STDERR
 Version:	0.26
 Release:	11
@@ -28,13 +28,13 @@ the destination of your error messages from inside of your script. The
 mail will be sent or the system command or Perl function run only if
 there actually is some output detected - something like cron would do.
 
-%description -l pl
-Ten modu³ przesy³a ca³e wyj¶cie, jakie zwykle posz³oby na standardowe
-wyj¶cie b³êdu (STDERR) poczt± do administratora albo do pliku lub
-procesu, albo wywo³uje funkcjê na koñcu skryptu. Ten sposób pozwala
-³atwo zmieniæ przeznaczenie komunikatów b³êdów z wnêtrza skryptu.
-Poczta mo¿e byæ wys³ana poleceniem systemowym lub funkcj± Perla
-uruchomion± tylko w przypadku, kiedy co¶ siê pojawi na wyj¶ciu -
+%description -l pl.UTF-8
+Ten moduÅ‚ przesyÅ‚a caÅ‚e wyjÅ›cie, jakie zwykle poszÅ‚oby na standardowe
+wyjÅ›cie bÅ‚Ä™du (STDERR) pocztÄ… do administratora albo do pliku lub
+procesu, albo wywoÅ‚uje funkcjÄ™ na koÅ„cu skryptu. Ten sposÃ³b pozwala
+Å‚atwo zmieniÄ‡ przeznaczenie komunikatÃ³w bÅ‚Ä™dÃ³w z wnÄ™trza skryptu.
+Poczta moÅ¼e byÄ‡ wysÅ‚ana poleceniem systemowym lub funkcjÄ… Perla
+uruchomionÄ… tylko w przypadku, kiedy coÅ› siÄ™ pojawi na wyjÅ›ciu -
 podobnie, jak robi to cron.
 
 %prep
