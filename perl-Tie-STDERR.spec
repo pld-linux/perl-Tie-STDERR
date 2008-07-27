@@ -9,7 +9,7 @@ Summary:	Tie::STDERR - send output of your STDERR to a process or mail
 Summary(pl.UTF-8):	Tie::STDERR - wysyłanie standardowego wyjścia błędu do procesu lub pocztą
 Name:		perl-Tie-STDERR
 Version:	0.26
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
