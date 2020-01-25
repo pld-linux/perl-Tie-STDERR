@@ -4,7 +4,6 @@
 
 %define		pdir	Tie
 %define		pnam	STDERR
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::STDERR - send output of your STDERR to a process or mail
 Summary(pl.UTF-8):	Tie::STDERR - wysyłanie standardowego wyjścia błędu do procesu lub pocztą
 Name:		perl-Tie-STDERR
